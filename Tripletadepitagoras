@@ -1,4 +1,6 @@
-
+ a=200, b=375, c=425 = 1000
+ 
+  
 def pythag(a, b, c):
     if a ** 2 + b ** 2 == c ** 2:
         return True
@@ -12,5 +14,10 @@ for num in a:
             if num + dig + i == 1000:
                 if pythag(num, dig, i):
                     print(num, dig, i)
-                    print("Product: {}".format(num * dig * i))
                     
+                    
+
+                   
+                    
+ *"Codigo de https://codereview.stackexchange.com/questions/60652/project-euler-9-pythagorean-triplet"
+ se modifica ya que arroja varios datos de compilacion 
